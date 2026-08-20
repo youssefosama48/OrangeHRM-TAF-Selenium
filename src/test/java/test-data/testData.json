@@ -1,0 +1,19 @@
+{
+  "validCredentials": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidCredentials": {
+    "username": "InvalidUser",
+    "password": "InvalidPass",
+    "emptyPassword": "",
+    "emptyUsername": ""
+  },
+  "errorMessages": {
+    "invalidCredentials": "Invalid credentials"
+  },
+  "employee_name": {
+    "valid": "John Smith",
+    "invalid": "Invalid Employee"
+  }
+}
