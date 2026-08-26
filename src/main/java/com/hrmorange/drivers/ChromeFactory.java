@@ -1,4 +1,4 @@
-package com.demoorangehrm.drivers;
+package com.hrmorange.drivers;
 
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;

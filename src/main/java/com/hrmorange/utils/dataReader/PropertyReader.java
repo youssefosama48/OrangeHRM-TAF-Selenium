@@ -1,4 +1,4 @@
-package com.demoorangehrm.utils.dataReader;
+package com.hrmorange.utils.dataReader;
 
 import org.apache.commons.io.FileUtils;
 
@@ -7,6 +7,8 @@ import java.util.Collection;
 import java.util.Properties;
 
 public class PropertyReader {
+    private static final Properties properties = loadProperties();
+
     // Load Properties function to load all data exists on .properties files into system properties
     public static Properties loadProperties() {
         try {
@@ -14,14 +16,15 @@ public class PropertyReader {
             Collection<File> propertiesFiles;
             propertiesFiles = FileUtils.listFiles(new File("src/main/resources"), new String[]{"properties"}, true); //get all files with extension properties
             propertiesFiles.forEach(file -> {
-                try {
-                    properties.load(FileUtils.openInputStream(file));
-                } catch (Exception e) {
-                    System.out.println("Error loading properties file");
-                }
-                properties.putAll(System.getProperties());
-                System.getProperties().putAll(properties);
-            });
+                        try {
+                            properties.load(FileUtils.openInputStream(file));
+                        } catch (Exception e) {
+                            System.out.println("Error loading properties file");
+                        }
+                        properties.putAll(System.getProperties());
+                        System.getProperties().putAll(properties);
+                    }
+            );
             return properties;
         } catch (Exception e) {
             System.out.println("Error loading properties file");

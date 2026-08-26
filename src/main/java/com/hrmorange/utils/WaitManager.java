@@ -1,6 +1,6 @@
-package com.demoorangehrm.utils;
+package com.hrmorange.utils;
 
-import com.demoorangehrm.utils.PropertyReader;
+import com.hrmorange.utils.dataReader.PropertyReader;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +14,7 @@ public class WaitManager {
         this.driver = driver;
     }
 
-    public FluentWait<WebDriver> getFluentWait() {
+    public FluentWait<WebDriver> fluentWait() {
         return new FluentWait<>(driver)
                 .withTimeout(java.time.Duration.ofSeconds(Long.parseLong(PropertyReader.getProperty("WAIT_INTERVAL"))))
                 .pollingEvery(java.time.Duration.ofMillis(200))
@@ -22,7 +22,7 @@ public class WaitManager {
                         StaleElementReferenceException.class);
     }
 
-    public WebDriverWait getExplicitWait() {
+    public WebDriverWait explicitWait() {
         return new WebDriverWait(driver, java.time.Duration.ofSeconds(Long.parseLong(PropertyReader.getProperty("WAIT_INTERVAL"))));
     }
 }

@@ -1,4 +1,4 @@
-package com.demoorangehrm.utils.dataReader;
+package com.hrmorange.utils.dataReader;
 
 import com.jayway.jsonpath.JsonPath;
 import org.json.simple.JSONObject;
@@ -8,7 +8,7 @@ import java.io.FileReader;
 
 public class JsonReader {
 
-    private final String test_data_path = "src/test/java/test-data/";
+    private final String TEST_DATA_PATH = "src/test/resources/test-data/";
 
     String jsonReader;
     String jsonFileName;
@@ -16,7 +16,7 @@ public class JsonReader {
     public JsonReader(String jsonFileName) {
         this.jsonFileName = jsonFileName;
         try {
-            JSONObject data = (JSONObject) new JSONParser().parse(new FileReader(test_data_path + jsonFileName + ".json"));
+            JSONObject data = (JSONObject) new JSONParser().parse(new FileReader(TEST_DATA_PATH + jsonFileName + ".json"));
             jsonReader = data.toJSONString();
         } catch (Exception e) {
             System.out.println("Error reading json file");

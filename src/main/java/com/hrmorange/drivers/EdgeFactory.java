@@ -1,4 +1,4 @@
-package com.demoorangehrm.drivers;
+package com.hrmorange.drivers;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
