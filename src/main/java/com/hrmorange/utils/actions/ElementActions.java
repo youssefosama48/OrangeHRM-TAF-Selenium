@@ -41,6 +41,11 @@ public class ElementActions {
         return this;
     }
 
+    public ElementActions clearText(By locator) {
+        findWebElements(locator).clear();
+        return this;
+    }
+
     /**
      * Type text into an input field located by the given locator.
      *

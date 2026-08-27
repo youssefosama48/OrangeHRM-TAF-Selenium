@@ -1,24 +1,81 @@
 {
-  "valid_credentials": {
-    "username": "Admin",
-    "password": "admin123"
-  },
-  "invalid_credentials": [
-    {
-      "username": "validUser",
-      "password": "invalid_password",
-      "errorType": "invalid",
-      "expectedMessage": "Invalid Credentials"
+  "login": {
+    "validCredentials": {
+      "username": "Admin",
+      "password": "admin123"
     },
-    {
-      "username": "invalidUser",
-      "password": "validPassword",
-      "errorType": "invalid",
-      "expectedMessage": "Invalid credentials"
+    "invalidLogin": [
+      {
+        "username": "validUser",
+        "password": "invalid_password",
+        "errorType": "invalid",
+        "expectedMessage": "Invalid credentials"
+      },
+      {
+        "username": "invalidUser",
+        "password": "validPassword",
+        "errorType": "invalid",
+        "expectedMessage": "Invalid credentials"
+      },
+      {
+        "username": "",
+        "password": "",
+        "errorType": "required",
+        "expectedMessage": "Required"
+      },
+      {
+        "username": "Admin",
+        "password": "",
+        "errorType": "required",
+        "expectedMessage": "Required"
+      }
+    ]
+  },
+  "employeeList": {
+    "existingEmployees": [
+      {
+        "employeeName": "aniket Ashok"
+      },
+      {
+        "employeeName": "DHINA KARAN"
+      }
+    ],
+    "nonExistingEmployees": [
+      {
+        "employeeName": "Joe Origiii"
+      },
+      {
+        "employeeName": "Eydoox10"
+      }
+    ]
+  },
+  "addEmployee": {
+    "validEmployees": [
+      {
+        "firstName": "John",
+        "lastName": "Wick",
+        "employeeId": "12345",
+        "employee_name": "John Wick"
+      },
+      {
+        "firstName": "Eyad",
+        "lastName": "Eydoox",
+        "employeeId": "67890",
+        "employee_name": "Eyad Eydoox"
+      }
+    ],
+    "emptyRequiredField": {
+      "firstName": "",
+      "lastName": "Origi",
+      "expectedMessage": "Required"
     }
-  ],
-  "employee_name": {
-    "valid": "John Smith",
-    "invalid": "Invalid Employee"
+  },
+  "original_website": "orangehrm.com",
+  "endpoints": {
+    "dashboard": "/dashboard/index",
+    "pim": "",
+    "employeeList": "/pim/viewEmployeeList",
+    "addEmployee": "/pim/addEmployee",
+    "employeePersonalDetails": "/pim/viewPersonalDetails"
   }
 }

@@ -12,16 +12,16 @@ public class LoginDataProvider {
 
         return new Object[][]{
                 {
-                        testData.getJsonData("invalidLoginScenarios[0].username"),
-                        testData.getJsonData("invalidLoginScenarios[0].password"),
-                        testData.getJsonData("invalidLoginScenarios[0].errorType"),
-                        testData.getJsonData("invalidLoginScenarios[0].expectedMessage")
+                        testData.getJsonData("login.invalidLogin[0].username"),
+                        testData.getJsonData("login.invalidLogin[0].password"),
+                        testData.getJsonData("login.invalidLogin[0].errorType"),
+                        testData.getJsonData("login.invalidLogin[0].expectedMessage")
                 },
                 {
-                        testData.getJsonData("invalidLoginScenarios[1].username"),
-                        testData.getJsonData("invalidLoginScenarios[1].password"),
-                        testData.getJsonData("invalidLoginScenarios[1].errorType"),
-                        testData.getJsonData("invalidLoginScenarios[1].expectedMessage")
+                        testData.getJsonData("login.invalidLogin[1].username"),
+                        testData.getJsonData("login.invalidLogin[1].password"),
+                        testData.getJsonData("login.invalidLogin[1].errorType"),
+                        testData.getJsonData("login.invalidLogin[1].expectedMessage")
                 }
         };
     }

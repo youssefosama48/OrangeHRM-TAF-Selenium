@@ -15,11 +15,7 @@ public class LoginTest extends BaseTest {
     @Severity(SeverityLevel.CRITICAL)
     @Test
     public void validLoginShouldRedirectUserToDashboard() {
-        new LoginPage(driver)
-                .loginWithValidCredentials(
-                        testData.getJsonData("validCredentials.username"),
-                        testData.getJsonData("validCredentials.password")
-                )
+        login()
                 .verifyUserNavigatedToDashboardPage()
                 .verifyDashboardPageTitle();
     }
@@ -27,7 +23,8 @@ public class LoginTest extends BaseTest {
     @Description("Verify that users cannot log in with invalid credentials and an error message is displayed")
     @Story("Invalid Login")
     @Severity(SeverityLevel.NORMAL)
-    @Test(dataProvider = "invalidLoginData", dataProviderClass = LoginDataProvider.class)
+    @Test(dataProvider = "invalidLoginData",
+            dataProviderClass = LoginDataProvider.class)
     public void invalidCredentialsShouldDisplayLoginError(
             String username, String password,
             String errorType, String expectedMessage) {
@@ -41,7 +38,6 @@ public class LoginTest extends BaseTest {
     @Severity(SeverityLevel.NORMAL)
     @Test
     public void emptyCredentialsShouldDisplayRequiredMessages() {
-
         new LoginPage(driver)
                 .clickLoginButton()
                 .verifyRequiredMsgDisplayedOnBoth();

@@ -2,6 +2,7 @@ package com.hrmorange.utils.actions;
 
 import com.hrmorange.utils.WaitManager;
 import com.hrmorange.utils.logs.LogsManager;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 
@@ -24,11 +25,27 @@ public class BrowserActions {
     /**
      * Get the current URL of the browser
      */
-    public String getCurrentUrl() {
-        String url = driver.getCurrentUrl();
-        LogsManager.info("Current URL: " + url);
-        return url;
+
+    public boolean waitForUrlContains(String endPoint) {
+        return waitManager.explicitWait()
+                .until(driver -> driver.getCurrentUrl().contains(endPoint));
     }
+
+    @Step("Switch to new browser tab")
+    public BrowserActions switchToNewTab() {
+
+        String currentWindow = driver.getWindowHandle();
+
+        for (String window : driver.getWindowHandles()) {
+            if (!window.equals(currentWindow)) {
+                driver.switchTo().window(window);
+                break;
+            }
+        }
+
+        return this;
+    }
+
 
     /**
      * Navigate to a specific URL

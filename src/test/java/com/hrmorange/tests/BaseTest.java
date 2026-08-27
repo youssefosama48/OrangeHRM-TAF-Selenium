@@ -2,6 +2,9 @@ package com.hrmorange.tests;
 
 import com.hrmorange.drivers.GUIDriver;
 import com.hrmorange.drivers.WebDriverProvider;
+import com.hrmorange.pages.DashboardPage;
+import com.hrmorange.pages.LoginPage;
+import com.hrmorange.pages.components.SideMenu;
 import com.hrmorange.utils.dataReader.JsonReader;
 import com.hrmorange.utils.dataReader.PropertyReader;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +13,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseTest implements WebDriverProvider {
     protected GUIDriver driver;
+    protected SideMenu sideMenu;
     protected JsonReader testData = new JsonReader("testData");
 
     @BeforeMethod
@@ -21,6 +25,14 @@ public class BaseTest implements WebDriverProvider {
     @AfterMethod
     public void tearDown() {
         driver.quitDriver();
+    }
+
+    public DashboardPage login() {
+        new LoginPage(driver)
+                .loginWithValidCredentials(testData.getJsonData("login.validCredentials.username"),
+                        testData.getJsonData("login.validCredentials.password")
+                );
+        return new DashboardPage(driver);
     }
 
     @Override

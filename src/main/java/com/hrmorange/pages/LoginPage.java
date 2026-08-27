@@ -61,10 +61,8 @@ public class LoginPage {
     @Step("Verify login error message")
     public LoginPage verifyErrorMessageDisplayed(String errorType, String expectedMessage) {
         By error = errorType.equals("required") ? requiredErrorMsg : invalidLoginMsg;
-        Assert
-                .assertEquals(driver.elementActions().getText(error),
-                        expectedMessage
-                );
+        Assert.assertEquals(driver
+                .elementActions().getText(error), expectedMessage);
         return this;
     }
 

@@ -26,7 +26,7 @@ public class DashboardPage {
     // Validations
     @Step("Check if user is in dashboard page")
     public DashboardPage verifyUserNavigatedToDashboardPage() {
-        Assert.assertTrue(driver.browserActions().getCurrentUrl().contains(dashboardPageUrl));
+        Assert.assertTrue(driver.browserActions().waitForUrlContains(dashboardPageUrl));
         return this;
     }
 
