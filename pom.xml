@@ -18,17 +18,26 @@
 
     <build>
         <plugins>
-            <!-- Add the following options to your maven-surefire-plugin -->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
+
                 <configuration>
+
+                    <!-- Allure / AspectJ -->
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
+
+                    <!-- Parallel Execution -->
+                    <parallel>methods</parallel>
+                    <threadCount>2</threadCount>
+
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
     <!-- Add allure-bom to dependency management to ensure correct versions of all the dependencies are used -->
@@ -76,7 +85,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <scope>test</scope>
+            <version>${allure.version}</version>
         </dependency>
 
         <dependency>
