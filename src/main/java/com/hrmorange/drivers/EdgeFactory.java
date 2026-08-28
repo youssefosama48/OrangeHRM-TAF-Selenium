@@ -8,7 +8,6 @@ public class EdgeFactory extends AbstractDriver {
 
     private EdgeOptions getOptions() {
         EdgeOptions options = new EdgeOptions();
-        options.addArguments("--headless=new");
         options.addArguments("--start-maximized");
         options.setAcceptInsecureCerts(true);
         return options;
@@ -16,6 +15,6 @@ public class EdgeFactory extends AbstractDriver {
 
     @Override
     public WebDriver createDriver() {
-        return new EdgeDriver();
+        return new EdgeDriver(getOptions());
     }
 }
