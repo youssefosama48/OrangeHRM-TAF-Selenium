@@ -18,8 +18,8 @@ public class E2ETest extends BaseTest {
     @Test(dataProvider = "newEmployeeData"
             , dataProviderClass = EmployeeDataProvider.class
             , retryAnalyzer = RetryAnalyzer.class)
-    public void newEmployeeShouldBeAddedSuccessfully(String firstName
-            , String lastName, String employeeId, String employeeName) {
+    public void newEmployeeShouldBeAddedSuccessfully(String firstName, String lastName,
+                                                     String employeeId, String employeeName) {
         login();
         new SideMenu(driver)
                 .clickPIM()

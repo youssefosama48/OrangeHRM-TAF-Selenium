@@ -10,7 +10,7 @@ import org.testng.Assert;
 public class EmployeePersonalDetailsPage {
     private final GUIDriver driver;
     private final String END_POINT =
-            new JsonReader("testData").getJsonData("endPoints.employeePersonalDetails");
+            new JsonReader("testData").getJsonData("endpoints.employeePersonalDetails");
 
     public EmployeePersonalDetailsPage(GUIDriver driver) {
         this.driver = driver;

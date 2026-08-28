@@ -13,7 +13,7 @@ public class LoginTest extends BaseTest {
     @Description("Verify that a user with valid credentials is redirected to the Dashboard page.")
     @Story("Valid Login")
     @Severity(SeverityLevel.CRITICAL)
-    @Test
+    @Test(priority = 1)
     public void validLoginShouldRedirectUserToDashboard() {
         login()
                 .verifyUserNavigatedToDashboardPage()
@@ -25,9 +25,8 @@ public class LoginTest extends BaseTest {
     @Severity(SeverityLevel.NORMAL)
     @Test(dataProvider = "invalidLoginData",
             dataProviderClass = LoginDataProvider.class)
-    public void invalidCredentialsShouldDisplayLoginError(
-            String username, String password,
-            String errorType, String expectedMessage) {
+    public void invalidCredentialsShouldDisplayLoginError(String username, String password,
+                                                          String errorType, String expectedMessage) {
         new LoginPage(driver)
                 .loginWithInvalidCredentials(username, password)
                 .verifyErrorMessageDisplayed(errorType, expectedMessage);

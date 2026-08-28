@@ -9,7 +9,7 @@ import org.testng.Assert;
 public class EmployeeListPage {
     private final GUIDriver driver;
     private final String END_POINT =
-            new JsonReader("testData").getJsonData("endPoints.employeeList");
+            new JsonReader("testData").getJsonData("endpoints.employeeList");
     //Locators
     private final By employeeNameField =
             By.xpath("(//*[@class='oxd-autocomplete-wrapper'])[1]//input");

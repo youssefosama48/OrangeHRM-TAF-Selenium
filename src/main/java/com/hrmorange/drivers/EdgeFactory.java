@@ -8,20 +8,14 @@ public class EdgeFactory extends AbstractDriver {
 
     private EdgeOptions getOptions() {
         EdgeOptions options = new EdgeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        options.addArguments("--disable-notifications");
-        options.addArguments("--disable-popup-blocking");
-        options.addArguments("--disable-infobars");
-        options.addArguments("--disable-extensions");
-        options.addArguments("--disable-gpu");
+        options.addArguments("--headless=new");
         options.addArguments("--start-maximized");
-//        options.addArguments("--headless");
         options.setAcceptInsecureCerts(true);
         return options;
     }
 
     @Override
     public WebDriver createDriver() {
-        return new EdgeDriver(getOptions());
+        return new EdgeDriver();
     }
 }

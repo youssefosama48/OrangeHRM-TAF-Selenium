@@ -33,8 +33,9 @@ public class JsonReader {
         try {
             return JsonPath.read(jsonReader, jsonPath);
         } catch (Exception e) {
-            System.out.println("Error reading json file");
-            return "";
+            throw new RuntimeException(
+                    "Failed to read JSON path: " + jsonPath, e
+            );
         }
     }
 }

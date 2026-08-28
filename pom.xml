@@ -18,26 +18,20 @@
 
     <build>
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
-
                 <configuration>
-
                     <!-- Allure / AspectJ -->
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-
                     <!-- Parallel Execution -->
-                    <parallel>methods</parallel>
-                    <threadCount>2</threadCount>
-
+                    <parallel>classes</parallel>
+                    <threadCount>3</threadCount>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
     <!-- Add allure-bom to dependency management to ensure correct versions of all the dependencies are used -->
@@ -55,10 +49,11 @@
 
     <dependencies>
         <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.39.0</version>
+            <version>4.43.0</version>
         </dependency>
 
         <!-- Source: https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
@@ -99,7 +94,6 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.21.0</version>
-            <scope>compile</scope>
         </dependency>
 
         <!-- Source: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
@@ -116,13 +110,12 @@
             <version>2.26.0</version>
         </dependency>
 
-        <!-- Source: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+        <!-- Source: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j2-impl -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-slf4j-impl</artifactId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
             <version>2.26.0</version>
         </dependency>
     </dependencies>
-
 
 </project>

@@ -1,7 +1,6 @@
 package com.hrmorange.tests;
 
 import com.hrmorange.pages.components.SideMenu;
-import com.hrmorange.utils.dataReader.JsonReader;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
@@ -31,7 +30,7 @@ public class AddEmployeeTest extends BaseTest {
         new SideMenu(driver)
                 .clickPIM()
                 .navigateToAddEmployee()
-                .enterLastName(new JsonReader("testData")
+                .enterLastName(testData
                         .getJsonData("addEmployee.validEmployees[0].lastName"))
                 .clickSave()
                 .verifyFirstNameRequiredErrorDisplayed();

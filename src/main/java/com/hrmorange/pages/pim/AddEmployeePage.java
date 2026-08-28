@@ -24,6 +24,7 @@ public class AddEmployeePage {
     private final By saveButton =
             By.cssSelector("[type='submit']");
 
+    //Constructor
     public AddEmployeePage(GUIDriver driver) {
         this.driver = driver;
     }
@@ -79,10 +80,7 @@ public class AddEmployeePage {
 
     @Step("Verify Add Employee page URL")
     public AddEmployeePage validateUrl() {
-        Assert
-                .assertTrue(
-                        driver.browserActions().waitForUrlContains(END_POINT)
-                );
+        Assert.assertTrue(driver.browserActions().waitForUrlContains(END_POINT));
         return this;
     }
 

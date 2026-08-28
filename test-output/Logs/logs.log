@@ -1,492 +1,350 @@
-[INFO] - [27-08-2026 13:57:43] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:57:43] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:57:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.partialLinkText: OrangeHRM, Inc
-[INFO] - [27-08-2026 13:57:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.partialLinkText: OrangeHRM, Inc
-[INFO] - [27-08-2026 13:57:47] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[ERROR] - [27-08-2026 13:57:47] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:57:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:57:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:57:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.xpath: //span[contains(.,'Required')]
-[INFO] - [27-08-2026 13:57:48] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:57:48] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:57:51] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:57:51] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:57:51] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 13:57:55] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 13:57:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:57:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:57:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:57:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:57:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:57:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:57:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.xpath: //div[@role='alert']//p
-[ERROR] - [27-08-2026 13:57:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.xpath: //div[@role='alert']//p
-[INFO] - [27-08-2026 13:57:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@role='alert']//p
-[INFO] - [27-08-2026 13:57:58] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:57:58] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:58:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:58:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:58:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:58:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.cssSelector: .oxd-topbar-header-breadcrumb > h6
-[INFO] - [27-08-2026 13:58:02] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .oxd-topbar-header-breadcrumb > h6
-[INFO] - [27-08-2026 13:58:02] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:58:02] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:58:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[ERROR] - [27-08-2026 13:58:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:03] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:58:03] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:03] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:03] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:03] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:58:03] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:58:03] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.xpath: //div[@role='alert']//p
-[ERROR] - [27-08-2026 13:58:04] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.xpath: //div[@role='alert']//p
-[INFO] - [27-08-2026 13:58:04] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@role='alert']//p
-[INFO] - [27-08-2026 13:58:04] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:58:04] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:58:07] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 13:58:10] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 13:58:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:58:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:58:13] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:58:14] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.cssSelector: .oxd-main-menu-item--name
-[INFO] - [27-08-2026 13:58:14] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:58:14] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:58:15] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:58:15] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:15] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:15] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:15] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:58:16] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:58:16] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:58:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:58:19] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:19] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 13:58:20] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 13:58:20] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:58:20] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.name: firstName
-[INFO] - [27-08-2026 13:58:20] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 13:58:21] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: firstName
-[INFO] - [27-08-2026 13:58:21] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
-[INFO] - [27-08-2026 13:58:21] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:58:21] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:58:25] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 13:58:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:58:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:58:26] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:58:26] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:27] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:58:27] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:58:29] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:29] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 13:58:30] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 13:58:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:58:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:58:30] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:58:30] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: lastName
-[INFO] - [27-08-2026 13:58:31] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
-[INFO] - [27-08-2026 13:58:31] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: lastName
-[INFO] - [27-08-2026 13:58:31] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='submit']
-[INFO] - [27-08-2026 13:58:31] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:58:31] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:58:31] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [type='submit']
-[ERROR] - [27-08-2026 13:58:31] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: (//div[@class='--name-grouped-field']//span)[1]
-[INFO] - [27-08-2026 13:58:31] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: (//div[@class='--name-grouped-field']//span)[1]
-[INFO] - [27-08-2026 13:58:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//div[@class='--name-grouped-field']//span)[1]
-[INFO] - [27-08-2026 13:58:32] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:58:32] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:58:33] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:33] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:58:33] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 13:58:34] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 13:58:34] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:58:34] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: firstName
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: firstName
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: firstName
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: lastName
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='submit']
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [type='submit']
-[INFO] - [27-08-2026 13:58:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:58:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 13:58:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 13:58:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 13:58:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
-[INFO] - [27-08-2026 13:58:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
-[ERROR] - [27-08-2026 13:58:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
-[INFO] - [27-08-2026 13:58:38] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
-[INFO] - [27-08-2026 13:58:38] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:58:38] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:58:43] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 13:58:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:58:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:58:50] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[ERROR] - [27-08-2026 13:58:50] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[ERROR] - [27-08-2026 13:58:50] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[ERROR] - [27-08-2026 13:58:51] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[ERROR] - [27-08-2026 13:58:51] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:58:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:58:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:58:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 13:58:53] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:58:53] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:53] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:54] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:58:54] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:58:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:58:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:58] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:58] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:59] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:58:59] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:02] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:02] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:03] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:03] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:04] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:04] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:05] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:05] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:06] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:06] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:07] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:59:07] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:59:07] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:59:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:59:23] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[ERROR] - [27-08-2026 13:59:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:24] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:24] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:25] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:25] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:26] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:26] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:27] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:27] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:28] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:28] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:29] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[ERROR] - [27-08-2026 13:59:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:30] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[ERROR] - [27-08-2026 13:59:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:31] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[ERROR] - [27-08-2026 13:59:31] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:31] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[ERROR] - [27-08-2026 13:59:31] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[ERROR] - [27-08-2026 13:59:32] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 13:59:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 13:59:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 13:59:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:59:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 13:59:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:59:32] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 13:59:33] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 13:59:33] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 13:59:33] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 13:59:38] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 13:59:38] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:39] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:39] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:40] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:59:40] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[ERROR] - [27-08-2026 13:59:40] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 13:59:41] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 13:59:42] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:01:07] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:01:07] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:01:11] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:11] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:11] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.xpath: //span[contains(.,'Required')]
-[INFO] - [27-08-2026 14:01:11] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:01:11] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:01:13] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[ERROR] - [27-08-2026 14:01:13] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.partialLinkText: OrangeHRM, Inc
-[INFO] - [27-08-2026 14:01:14] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.partialLinkText: OrangeHRM, Inc
-[INFO] - [27-08-2026 14:01:14] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.partialLinkText: OrangeHRM, Inc
-[INFO] - [27-08-2026 14:01:17] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:01:17] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:01:18] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:01:20] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:01:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:01:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:24] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:01:24] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.xpath: //div[@role='alert']//p
-[INFO] - [27-08-2026 14:01:24] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@role='alert']//p
-[INFO] - [27-08-2026 14:01:24] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:01:24] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:01:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:01:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:26] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:01:26] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.cssSelector: .oxd-topbar-header-breadcrumb > h6
-[INFO] - [27-08-2026 14:01:26] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .oxd-topbar-header-breadcrumb > h6
-[INFO] - [27-08-2026 14:01:26] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:01:26] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:01:28] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[ERROR] - [27-08-2026 14:01:28] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:28] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:01:28] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:28] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:28] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:28] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:01:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.xpath: //div[@role='alert']//p
-[INFO] - [27-08-2026 14:01:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@role='alert']//p
-[INFO] - [27-08-2026 14:01:30] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:01:30] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:01:31] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:01:36] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:01:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:01:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:37] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:37] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.cssSelector: .oxd-main-menu-item--name
-[INFO] - [27-08-2026 14:01:37] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:01:37] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:01:41] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:01:41] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:41] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:41] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:41] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:41] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[ERROR] - [27-08-2026 14:01:41] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:41] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:01:42] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:42] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:42] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:42] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:42] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:01:42] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:01:42] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:01:43] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:01:43] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:01:44] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:01:44] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:01:44] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 14:01:45] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 14:01:45] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:01:45] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 14:01:46] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 14:01:46] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.name: firstName
-[INFO] - [27-08-2026 14:01:46] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 14:01:46] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: firstName
-[INFO] - [27-08-2026 14:01:46] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
-[INFO] - [27-08-2026 14:01:46] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:01:46] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:01:46] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 14:01:46] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: lastName
-[INFO] - [27-08-2026 14:01:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
-[INFO] - [27-08-2026 14:01:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: lastName
-[INFO] - [27-08-2026 14:01:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='submit']
-[INFO] - [27-08-2026 14:01:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [type='submit']
-[ERROR] - [27-08-2026 14:01:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: (//div[@class='--name-grouped-field']//span)[1]
-[ERROR] - [27-08-2026 14:01:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: (//div[@class='--name-grouped-field']//span)[1]
-[INFO] - [27-08-2026 14:01:48] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//div[@class='--name-grouped-field']//span)[1]
-[INFO] - [27-08-2026 14:01:48] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:01:48] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:01:49] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:01:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:01:54] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:01:55] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:55] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:55] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:55] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:55] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:01:55] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:01:56] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:01:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:01:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 14:01:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:01:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:01:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:01:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:01:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: firstName
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: firstName
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: firstName
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: lastName
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='submit']
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [type='submit']
-[INFO] - [27-08-2026 14:01:58] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:01:59] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:02:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:02:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:02:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
-[INFO] - [27-08-2026 14:02:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
-[ERROR] - [27-08-2026 14:02:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
-[INFO] - [27-08-2026 14:02:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
-[INFO] - [27-08-2026 14:02:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
-[ERROR] - [27-08-2026 14:02:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'aniket Ashok')]
-[ERROR] - [27-08-2026 14:02:01] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
-[ERROR] - [27-08-2026 14:02:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'aniket Ashok')]
-[ERROR] - [27-08-2026 14:02:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
-[ERROR] - [27-08-2026 14:02:02] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'aniket Ashok')]
-[INFO] - [27-08-2026 14:02:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
-[INFO] - [27-08-2026 14:02:02] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:02:02] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:02:02] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'aniket Ashok')]
-[INFO] - [27-08-2026 14:02:02] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:02:02] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:02:07] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:02:08] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:02:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:02:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:02:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:12] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:02:13] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:02:13] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:02:13] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:13] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:13] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:02:13] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:02:13] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:02:14] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:02:14] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:02:14] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:02:14] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:02:15] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:02:15] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:02:15] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
-[INFO] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
-[ERROR] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'DHINA KARAN')]
-[INFO] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'DHINA KARAN')]
-[INFO] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
-[INFO] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:02:16] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
-[ERROR] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: firstName
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: firstName
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: firstName
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: lastName
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='submit']
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [type='submit']
-[INFO] - [27-08-2026 14:02:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:02:18] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:02:18] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:19] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:19] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:19] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
-[INFO] - [27-08-2026 14:02:19] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
-[ERROR] - [27-08-2026 14:02:19] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'Eyad Eydoox')]
-[INFO] - [27-08-2026 14:02:19] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'Eyad Eydoox')]
-[INFO] - [27-08-2026 14:02:19] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:02:19] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:02:23] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:02:24] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:02:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:02:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:02:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:02:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:02:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:02:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:29] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:02:29] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:02:29] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:02:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:02:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu-item-wrapper']//span[contains(.,'Admin')]
-[INFO] - [27-08-2026 14:02:30] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:02:30] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu-item-wrapper']//span[contains(.,'Admin')]
-[INFO] - [27-08-2026 14:02:31] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu-item-wrapper']//span[contains(.,'Admin')]
-[INFO] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu-item-wrapper']//span[contains(.,'Admin')]
-[ERROR] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //div[@class='orangehrm-header-container']//button
-[INFO] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
-[INFO] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
-[ERROR] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
-[INFO] - [27-08-2026 14:02:32] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='orangehrm-header-container']//button
-[ERROR] - [27-08-2026 14:02:33] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
-[INFO] - [27-08-2026 14:02:33] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='orangehrm-header-container']//button
-[ERROR] - [27-08-2026 14:02:33] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //label[contains(.,'User Role')]
-[INFO] - [27-08-2026 14:02:33] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
-[INFO] - [27-08-2026 14:02:33] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
-[INFO] - [27-08-2026 14:02:33] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
-[INFO] - [27-08-2026 14:02:34] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'User Role')]
-[INFO] - [27-08-2026 14:02:34] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Employee Name')]
-[INFO] - [27-08-2026 14:02:34] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Username')]
-[INFO] - [27-08-2026 14:02:34] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Password')]
-[INFO] - [27-08-2026 14:02:40] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
-[INFO] - [27-08-2026 14:02:45] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
-[INFO] - [27-08-2026 14:02:46] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
-[INFO] - [27-08-2026 14:02:46] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:46] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
-[INFO] - [27-08-2026 14:02:46] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
-[INFO] - [27-08-2026 14:02:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
-[ERROR] - [27-08-2026 14:02:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:02:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[INFO] - [27-08-2026 14:02:48] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
-[ERROR] - [27-08-2026 14:02:48] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:49] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:49] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
-[INFO] - [27-08-2026 14:02:49] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
-[INFO] - [27-08-2026 14:02:49] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
-[ERROR] - [27-08-2026 14:02:49] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
-[ERROR] - [27-08-2026 14:02:50] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
-[INFO] - [27-08-2026 14:02:50] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
+[INFO] - [28-08-2026 18:04:15] [TestNG-test-Surefire test-3] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:04:15] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:04:15] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:04:15] [TestNG-test-Surefire test-3] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:04:15] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:04:15] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:04:27] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[INFO] - [28-08-2026 18:04:28] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[INFO] - [28-08-2026 18:04:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.xpath: //span[contains(.,'Required')]
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['invalidLogin'][0]['username']
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['invalidLogin'][0]['password']
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['invalidLogin'][0]['errorType']
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['invalidLogin'][0]['expectedMessage']
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['invalidLogin'][1]['username']
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['invalidLogin'][1]['password']
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['invalidLogin'][1]['errorType']
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['invalidLogin'][1]['expectedMessage']
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[DEBUG] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['original_website']
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.partialLinkText: OrangeHRM, Inc
+[INFO] - [28-08-2026 18:04:33] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.partialLinkText: OrangeHRM, Inc
+[INFO] - [28-08-2026 18:04:35] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.cssSelector: .oxd-main-menu-item--name
+[INFO] - [28-08-2026 18:04:35] [TestNG-test-Surefire test-3] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:04:35] [TestNG-test-Surefire test-3] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:04:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[ERROR] - [28-08-2026 18:04:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
+[INFO] - [28-08-2026 18:04:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:04:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:04:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.xpath: //div[@role='alert']//p
+[DEBUG] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['addEmployee']['validEmployees'][0]['firstName']
+[DEBUG] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['addEmployee']['validEmployees'][0]['lastName']
+[DEBUG] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['addEmployee']['validEmployees'][0]['employeeId']
+[DEBUG] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['addEmployee']['validEmployees'][0]['employee_name']
+[DEBUG] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['addEmployee']['validEmployees'][1]['firstName']
+[DEBUG] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['addEmployee']['validEmployees'][1]['lastName']
+[DEBUG] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['addEmployee']['validEmployees'][1]['employeeId']
+[DEBUG] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['addEmployee']['validEmployees'][1]['employee_name']
+[INFO] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:04:38] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:04:39] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@role='alert']//p
+[INFO] - [28-08-2026 18:04:39] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:04:39] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:04:39] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[INFO] - [28-08-2026 18:04:42] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[INFO] - [28-08-2026 18:04:42] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[DEBUG] - [28-08-2026 18:04:44] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:04:44] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[INFO] - [28-08-2026 18:04:44] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:04:44] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:04:44] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:44] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:44] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:04:46] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:04:46] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:47] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:04:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:04:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.xpath: //div[@role='alert']//p
+[INFO] - [28-08-2026 18:04:48] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:04:48] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[ERROR] - [28-08-2026 18:04:48] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
+[INFO] - [28-08-2026 18:04:48] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:04:48] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:04:49] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@role='alert']//p
+[INFO] - [28-08-2026 18:04:49] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
+[INFO] - [28-08-2026 18:04:49] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:04:49] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:04:49] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:04:49] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
+[DEBUG] - [28-08-2026 18:04:49] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['addEmployee']
+[ERROR] - [28-08-2026 18:04:49] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.name: firstName
+[INFO] - [28-08-2026 18:04:50] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:04:50] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[ERROR] - [28-08-2026 18:04:50] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
+[INFO] - [28-08-2026 18:04:50] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: firstName
+[INFO] - [28-08-2026 18:04:50] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
+[INFO] - [28-08-2026 18:04:50] [TestNG-test-Surefire test-3] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:04:50] [TestNG-test-Surefire test-3] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:04:50] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
+[INFO] - [28-08-2026 18:04:51] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
+[DEBUG] - [28-08-2026 18:04:51] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['addEmployee']
+[ERROR] - [28-08-2026 18:04:51] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: firstName
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: firstName
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: firstName
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: lastName
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='submit']
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [type='submit']
+[DEBUG] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeePersonalDetails']
+[INFO] - [28-08-2026 18:04:52] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[INFO] - [28-08-2026 18:04:54] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[ERROR] - [28-08-2026 18:04:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:04:57] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:04:57] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[INFO] - [28-08-2026 18:04:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:04:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:04:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:57] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:04:57] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:04:59] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:04:59] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[INFO] - [28-08-2026 18:04:59] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:04:59] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:04:59] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:59] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:04:59] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:05:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:05:00] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[ERROR] - [28-08-2026 18:05:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:05:00] [TestNG-test-Surefire test-2] [io.qameta.allure.util.NamingUtils] - Could not find parameter Dashboard
+[ERROR] - [28-08-2026 18:05:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.cssSelector: .oxd-topbar-header-breadcrumb > h6
+[ERROR] - [28-08-2026 18:05:00] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[ERROR] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to get text from element: By.cssSelector: .oxd-topbar-header-breadcrumb > h6
+[ERROR] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .oxd-topbar-header-breadcrumb > h6
+[INFO] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
+[INFO] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[DEBUG] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['employeeList']['existingEmployees'][0]['employeeName']
+[DEBUG] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['employeeList']['existingEmployees'][1]['employeeName']
+[INFO] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[ERROR] - [28-08-2026 18:05:01] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
+[ERROR] - [28-08-2026 18:05:02] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
+[ERROR] - [28-08-2026 18:05:03] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
+[INFO] - [28-08-2026 18:05:03] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:05:03] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[ERROR] - [28-08-2026 18:05:03] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
+[ERROR] - [28-08-2026 18:05:03] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[ERROR] - [28-08-2026 18:05:04] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
+[ERROR] - [28-08-2026 18:05:04] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:04] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'John Wick')]
+[INFO] - [28-08-2026 18:05:04] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:07] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:05:07] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[ERROR] - [28-08-2026 18:05:07] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
+[INFO] - [28-08-2026 18:05:07] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[INFO] - [28-08-2026 18:05:07] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
+[INFO] - [28-08-2026 18:05:08] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
+[DEBUG] - [28-08-2026 18:05:08] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['addEmployee']
+[DEBUG] - [28-08-2026 18:05:08] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['addEmployee']['validEmployees'][0]['lastName']
+[ERROR] - [28-08-2026 18:05:08] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: lastName
+[ERROR] - [28-08-2026 18:05:09] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: lastName
+[INFO] - [28-08-2026 18:05:09] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
+[INFO] - [28-08-2026 18:05:09] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: lastName
+[INFO] - [28-08-2026 18:05:09] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='submit']
+[INFO] - [28-08-2026 18:05:09] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [type='submit']
+[ERROR] - [28-08-2026 18:05:09] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: (//div[@class='--name-grouped-field']//span)[1]
+[INFO] - [28-08-2026 18:05:10] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:05:10] [TestNG-test-Surefire test-1] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[ERROR] - [28-08-2026 18:05:10] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: (//div[@class='--name-grouped-field']//span)[1]
+[INFO] - [28-08-2026 18:05:10] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//div[@class='--name-grouped-field']//span)[1]
+[DEBUG] - [28-08-2026 18:05:12] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:05:12] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[INFO] - [28-08-2026 18:05:12] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:05:12] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:05:12] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:12] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:12] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:05:15] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[DEBUG] - [28-08-2026 18:05:15] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:05:15] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[ERROR] - [28-08-2026 18:05:15] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
+[INFO] - [28-08-2026 18:05:16] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:05:16] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[ERROR] - [28-08-2026 18:05:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
+[ERROR] - [28-08-2026 18:05:16] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:05:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:05:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:16] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:05:17] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:19] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:05:19] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:20] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:05:20] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[DEBUG] - [28-08-2026 18:05:20] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[INFO] - [28-08-2026 18:05:20] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[ERROR] - [28-08-2026 18:05:20] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[ERROR] - [28-08-2026 18:05:20] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:21] [TestNG-test-Surefire test-3] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:05:21] [TestNG-test-Surefire test-3] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[ERROR] - [28-08-2026 18:05:21] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:22] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:22] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:22] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
+[INFO] - [28-08-2026 18:05:22] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[ERROR] - [28-08-2026 18:05:22] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'aniket Ashok')]
+[ERROR] - [28-08-2026 18:05:22] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'aniket Ashok')]
+[ERROR] - [28-08-2026 18:05:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'aniket Ashok')]
+[INFO] - [28-08-2026 18:05:23] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'aniket Ashok')]
+[INFO] - [28-08-2026 18:05:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:05:25] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[ERROR] - [28-08-2026 18:05:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
+[ERROR] - [28-08-2026 18:05:25] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
+[ERROR] - [28-08-2026 18:05:26] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //a[contains(.,'Add Employee')]
+[INFO] - [28-08-2026 18:05:26] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //a[contains(.,'Add Employee')]
+[INFO] - [28-08-2026 18:05:27] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[INFO] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(.,'Add Employee')]
+[DEBUG] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['addEmployee']
+[ERROR] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: firstName
+[INFO] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: firstName
+[INFO] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: firstName
+[INFO] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: lastName
+[INFO] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: lastName
+[INFO] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found elements: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
+[INFO] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
+[INFO] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: //label[contains(.,'Employee Id')]/parent::div/following-sibling::div/input
+[INFO] - [28-08-2026 18:05:28] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='submit']
+[INFO] - [28-08-2026 18:05:29] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: [type='submit']
+[DEBUG] - [28-08-2026 18:05:29] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeePersonalDetails']
+[INFO] - [28-08-2026 18:05:29] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:05:29] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[DEBUG] - [28-08-2026 18:05:32] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:05:32] [TestNG-test-Surefire test-3] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[INFO] - [28-08-2026 18:05:32] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:05:32] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:05:32] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:32] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:32] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:05:33] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:05:33] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu-item-wrapper']//span[contains(.,'Admin')]
+[ERROR] - [28-08-2026 18:05:33] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:33] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu-item-wrapper']//span[contains(.,'Admin')]
+[ERROR] - [28-08-2026 18:05:34] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:34] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[DEBUG] - [28-08-2026 18:05:35] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:05:35] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[ERROR] - [28-08-2026 18:05:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
+[ERROR] - [28-08-2026 18:05:35] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.name: username
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu-item-wrapper']//span[contains(.,'Admin')]
+[ERROR] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //div[@class='orangehrm-header-container']//button
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-1] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[ERROR] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='orangehrm-header-container']//button
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
+[INFO] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[ERROR] - [28-08-2026 18:05:36] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'Eyad Eydoox')]
+[INFO] - [28-08-2026 18:05:37] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //div[@class='orangehrm-header-container']//button
+[ERROR] - [28-08-2026 18:05:37] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //label[contains(.,'User Role')]
+[INFO] - [28-08-2026 18:05:37] [TestNG-test-Surefire test-1] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'Eyad Eydoox')]
+[INFO] - [28-08-2026 18:05:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:05:37] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:37] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'User Role')]
+[INFO] - [28-08-2026 18:05:37] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Employee Name')]
+[INFO] - [28-08-2026 18:05:37] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Username')]
+[INFO] - [28-08-2026 18:05:37] [TestNG-test-Surefire test-3] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //label[contains(.,'Password')]
+[INFO] - [28-08-2026 18:05:38] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:39] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:05:39] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[DEBUG] - [28-08-2026 18:05:39] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[ERROR] - [28-08-2026 18:05:39] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:39] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:39] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:39] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
+[INFO] - [28-08-2026 18:05:39] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[ERROR] - [28-08-2026 18:05:39] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'DHINA KARAN')]
+[INFO] - [28-08-2026 18:05:40] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //div[@class='oxd-table-card']/div[contains(.,'DHINA KARAN')]
+[DEBUG] - [28-08-2026 18:05:40] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['employeeList']['nonExistingEmployees'][0]['employeeName']
+[DEBUG] - [28-08-2026 18:05:40] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['employeeList']['nonExistingEmployees'][1]['employeeName']
+[INFO] - [28-08-2026 18:05:40] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:05:40] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:05:42] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[DEBUG] - [28-08-2026 18:05:47] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:05:47] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[INFO] - [28-08-2026 18:05:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:05:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:05:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:05:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:05:48] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:49] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:05:50] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:05:50] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[DEBUG] - [28-08-2026 18:05:50] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[ERROR] - [28-08-2026 18:05:50] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:51] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:51] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:05:51] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
+[INFO] - [28-08-2026 18:05:51] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[ERROR] - [28-08-2026 18:05:51] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
+[INFO] - [28-08-2026 18:05:51] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
+[INFO] - [28-08-2026 18:05:51] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Initializing GUIDriver with browser: edge
+[INFO] - [28-08-2026 18:05:51] [TestNG-test-Surefire test-2] [com.hrmorange.drivers.GUIDriver] - Starting driver for browser: EDGE
+[INFO] - [28-08-2026 18:05:54] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.BrowserActions] - Navigated to URL: https://opensource-demo.orangehrmlive.com/web/index.php/
+[DEBUG] - [28-08-2026 18:05:59] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['username']
+[DEBUG] - [28-08-2026 18:05:59] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['validCredentials']['password']
+[INFO] - [28-08-2026 18:05:59] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.name: username
+[INFO] - [28-08-2026 18:05:59] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.name: username
+[INFO] - [28-08-2026 18:05:59] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:59] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.cssSelector: [type='password']
+[INFO] - [28-08-2026 18:05:59] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.cssSelector: .orangehrm-login-action > button
+[INFO] - [28-08-2026 18:06:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.cssSelector: .orangehrm-login-action > button
+[ERROR] - [28-08-2026 18:06:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to click on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:06:00] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[INFO] - [28-08-2026 18:06:01] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //*[@class='oxd-main-menu']//span[contains(.,'PIM')]
+[DEBUG] - [28-08-2026 18:06:01] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[DEBUG] - [28-08-2026 18:06:01] [TestNG-test-Surefire test-2] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['endpoints']['employeeList']
+[ERROR] - [28-08-2026 18:06:01] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to send keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:06:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:06:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Sent keys to element: By.xpath: (//*[@class='oxd-autocomplete-wrapper'])[1]//input
+[INFO] - [28-08-2026 18:06:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //button[@type='submit']
+[INFO] - [28-08-2026 18:06:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Clicked on element: By.xpath: //button[@type='submit']
+[ERROR] - [28-08-2026 18:06:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
+[ERROR] - [28-08-2026 18:06:02] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Failed to find element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
+[INFO] - [28-08-2026 18:06:03] [TestNG-test-Surefire test-2] [com.hrmorange.utils.actions.ElementActions] - Found element: By.xpath: //*[@class='orangehrm-paper-container']//span[contains(.,'No Records Found')]
